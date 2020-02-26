@@ -39,5 +39,8 @@ class TestHrm:
             assert False
 
 #To run test cases : pytest -v -s --alluredir="/home/admin1/PycharmProjects/UnittestPomBasedProject/allurereports/reports" login.py
-#generating allure reports: allure server /home/admin1/PycharmProjects/UnittestPomBasedProject/allurereports/reports
+#generating allure reports: allure serve /home/admin1/PycharmProjects/UnittestPomBasedProject/allurereports/reports
 #to share allure reports: netlify.com
+#export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+#export PATH="/home/admin1/Downloads/allure-2.13.0/bin/:$PATH"
+#allure --version
